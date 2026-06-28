@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-cream text-ink font-body;
+}
+
+::selection {
+  background: #C9A227;
+  color: #fff;
+}
+
+/* Decorative kolam-style border strip, echoing the menu's printed border */
+.kolam-border {
+  height: 10px;
+  background-image: repeating-linear-gradient(
+      135deg,
+      #E8732A 0 6px,
+      transparent 6px 12px
+    ),
+    repeating-linear-gradient(
+      45deg,
+      #C9A227 0 6px,
+      transparent 6px 12px
+    );
+  background-blend-mode: multiply;
+  opacity: 0.85;
+}
+
+.banana-leaf-card {
+  background: linear-gradient(160deg, #3F6B3B 0%, #2A4A27 60%, #1f3a1d 100%);
+}
+
+.gold-text {
+  background: linear-gradient(90deg, #C9A227, #F4D67E, #C9A227);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* visible focus ring */
+a:focus-visible, button:focus-visible {
+  outline: 2px solid #E8732A;
+  outline-offset: 3px;
+}
+
+.scrollbar-thin::-webkit-scrollbar { height: 6px; width: 6px; }
+.scrollbar-thin::-webkit-scrollbar-thumb { background: #C9A227; border-radius: 4px; }
