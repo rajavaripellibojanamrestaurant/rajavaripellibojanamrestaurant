@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Raja Vari Pelli Bhojanam — Website
 
 A React + Tailwind CSS + Three.js website for **Raja Vari Pelli Bhojanam** (Royal Wedding Feast),
@@ -47,3 +48,21 @@ src/
 - Built with Vite. Network access was unavailable in the build sandbox used to generate this
   project, so `npm install` / `npm run build` have not been executed here — run them on your
   machine to verify, and open a GitHub issue style note to me if you hit anything unexpected.
+=======
+## Hi there 👋
+
+<!--
+**rajavaripellibojanamrestaurant/rajavaripellibojanamrestaurant** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+
+Here are some ideas to get you started:
+
+- 🔭 I’m currently working on ...
+- 🌱 I’m currently learning ...
+- 👯 I’m looking to collaborate on ...
+- 🤔 I’m looking for help with ...
+- 💬 Ask me about ...
+- 📫 How to reach me: ...
+- 😄 Pronouns: ...
+- ⚡ Fun fact: ...
+-->
+>>>>>>> 195d9bff72cf19f54adf927313dbf37a2aaa976c
